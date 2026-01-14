@@ -40,7 +40,25 @@
     <button onclick="alert('Register coming soon')">Register</button>
     <button onclick="alert('Wallet coming soon')">Wallet</button>
   </div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCZWCt758Kgcvt8KWX2bEJeuKKY0GSkUyQ",
+    authDomain: "tronpay-b36e4.firebaseapp.com",
+    projectId: "tronpay-b36e4",
+    storageBucket: "tronpay-b36e4.firebasestorage.app",
+    messagingSenderId: "198848791753",
+    appId: "1:198848791753:web:5176a871e19a1ee7a83918"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
 <div style="
